@@ -7,6 +7,7 @@ export const translations = {
     howItWorks: { zh: "接入流程", en: "How It Works" },
     pricing: { zh: "定价", en: "Pricing" },
     faq: { zh: "常见问题", en: "FAQ" },
+    blog: { zh: "博客", en: "Blog" },
     cta: { zh: "免费接入", en: "Get Started" },
   },
 

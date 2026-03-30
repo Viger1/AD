@@ -11,6 +11,7 @@ const NAV_ITEMS = [
   { key: "howItWorks" as const, href: "#how-it-works" },
   { key: "pricing" as const, href: "#pricing" },
   { key: "faq" as const, href: "#faq" },
+  { key: "blog" as const, href: "/blog" },
 ];
 
 export function Header() {
