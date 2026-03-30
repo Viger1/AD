@@ -177,7 +177,8 @@ function Header() {
           <a href="#services" className="hover:text-[var(--color-accent)] transition-colors">Services</a>
           <a href="#how-it-works" className="hover:text-[var(--color-accent)] transition-colors">How It Works</a>
           <a href="#pricing" className="hover:text-[var(--color-accent)] transition-colors">Pricing</a>
-          <a href="#faq" className="hover:text-[var(--color-accent)] transition-colors">FAQ</a>
+          <a href="#about" className="hover:text-[var(--color-accent)] transition-colors">About</a>
+          <a href="/blog" className="hover:text-[var(--color-accent)] transition-colors">Blog</a>
         </nav>
         <a href="#contact" className="px-5 py-2 rounded-lg bg-[var(--color-accent)] text-white text-sm font-semibold hover:bg-[var(--color-accent-hover)] transition-colors shadow-md shadow-[var(--color-accent)]/20">
           Get Started
@@ -322,6 +323,44 @@ function Pricing() {
   );
 }
 
+function About() {
+  return (
+    <section id="about" className="py-20">
+      <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8">
+        <div className="text-center mb-14">
+          <h2 className="text-3xl sm:text-4xl font-bold mb-4">About Us</h2>
+          <p className="text-[var(--color-text-secondary)] text-lg">关于我们 · Who we are</p>
+        </div>
+        <div className="p-8 rounded-2xl glass-card mb-8">
+          <p className="text-[var(--color-text-secondary)] leading-relaxed mb-4">
+            GGBANG is a lean, AI-native marketing studio. We use cutting-edge AI tools to create and distribute high-quality content at scale — helping brands get discovered by both AI search engines and real users across 8+ platforms.
+          </p>
+          <p className="text-[var(--color-text-muted)] leading-relaxed mb-6">
+            GGBANG 是一家精益的 AI 原生营销工作室。我们利用前沿 AI 工具规模化生产和分发高质量内容，帮助品牌在 8+ 个平台上被 AI 搜索引擎和真实用户发现。
+          </p>
+          <div className="grid sm:grid-cols-3 gap-5">
+            <div className="p-4 rounded-xl bg-[var(--color-accent-light)]">
+              <div className="text-2xl font-bold text-[var(--color-accent)] mb-1">AI-Native</div>
+              <p className="text-xs text-[var(--color-text-secondary)]">Built on AI from day one. Every workflow is powered by large language models — from content creation to distribution scheduling.</p>
+              <p className="text-xs text-[var(--color-text-muted)] mt-1">从第一天起就基于 AI 构建，每个环节都由大语言模型驱动。</p>
+            </div>
+            <div className="p-4 rounded-xl bg-[var(--color-accent-light)]">
+              <div className="text-2xl font-bold text-[var(--color-accent)] mb-1">White-Hat</div>
+              <p className="text-xs text-[var(--color-text-secondary)]">100% compliant. Real content about real products. No fake reviews, no data poisoning, no manipulation. Post-315 clean.</p>
+              <p className="text-xs text-[var(--color-text-muted)] mt-1">100% 合规。真实产品的真实内容。没有虚假评测、没有数据投毒。</p>
+            </div>
+            <div className="p-4 rounded-xl bg-[var(--color-accent-light)]">
+              <div className="text-2xl font-bold text-[var(--color-accent)] mb-1">Global</div>
+              <p className="text-xs text-[var(--color-text-secondary)]">Bilingual content in Chinese and English. Covering platforms in China, US, and worldwide markets simultaneously.</p>
+              <p className="text-xs text-[var(--color-text-muted)] mt-1">中英双语内容，同时覆盖中国、美国及全球市场的平台。</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+  );
+}
+
 function FAQ() {
   return (
     <section id="faq" className="py-20 bg-[var(--color-bg-alt)]/40">
@@ -430,6 +469,7 @@ export default function Home() {
         <Services />
         <HowItWorks />
         <Pricing />
+        <About />
         <FAQ />
         <Contact />
       </main>
