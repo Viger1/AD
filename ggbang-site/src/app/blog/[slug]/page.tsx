@@ -28,7 +28,7 @@ export default async function ArticlePage({ params }: PageProps) {
 
   return (
     <div className="min-h-screen bg-[var(--color-bg)]">
-      <header className="border-b border-[var(--color-border)] bg-white/60 backdrop-blur-xl">
+      <header className="border-b border-[var(--color-border)] bg-[var(--color-bg)]/80 backdrop-blur-xl">
         <div className="max-w-3xl mx-auto px-4 sm:px-6 lg:px-8 flex items-center justify-between h-16">
           <Link href="/" className="text-xl font-bold tracking-tight text-[var(--color-accent)]" style={{ fontFamily: "var(--font-display)" }}>
             GGBANG

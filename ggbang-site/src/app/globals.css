@@ -8,9 +8,9 @@
   --color-orange: #FF6B35;
   --color-cyan: #0BE2D6;
   --color-success: #10B981;
-  --color-bg: #FAFAF7;
-  --color-bg-alt: #F1F0EC;
-  --color-bg-card: #FFFFFF;
+  --color-bg: #F0EFE9;
+  --color-bg-alt: #E8E7E1;
+  --color-bg-card: #F7F6F2;
   --color-text: #1A2332;
   --color-text-secondary: #526170;
   --color-text-muted: #8896A4;
@@ -56,8 +56,8 @@ h1, h2, h3, h4, h5, h6 {
 .prose-custom code { padding: 0.15rem 0.4rem; border-radius: 0.25rem; background: rgba(97,47,255,0.08); color: #612FFF; font-size: 0.85rem; }
 
 .glass-card {
-  background: rgba(255, 255, 255, 0.82);
+  background: rgba(247, 246, 242, 0.85);
   backdrop-filter: blur(16px);
   -webkit-backdrop-filter: blur(16px);
-  border: 1px solid rgba(226, 232, 240, 0.7);
+  border: 1px solid rgba(220, 218, 210, 0.6);
 }
