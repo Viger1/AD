@@ -1,33 +1,17 @@
-import { Header } from "@/components/Header";
-import { Hero } from "@/components/Hero";
-import { TrustLogos } from "@/components/TrustLogos";
-import { PaymentMethods } from "@/components/PaymentMethods";
-import { Features } from "@/components/Features";
-import { ProductShowcase } from "@/components/ProductShowcase";
-import { HowItWorks } from "@/components/HowItWorks";
-import { Pricing } from "@/components/Pricing";
-import { FAQ } from "@/components/FAQ";
-import { CTA } from "@/components/CTA";
-import { Footer } from "@/components/Footer";
-import { ScrollBackground } from "@/components/ScrollBackground";
-
 export default function Home() {
   return (
-    <>
-      <ScrollBackground />
-      <Header />
-      <main>
-        <Hero />
-        <TrustLogos />
-        <PaymentMethods />
-        <Features />
-        <ProductShowcase />
-        <HowItWorks />
-        <Pricing />
-        <FAQ />
-        <CTA />
-      </main>
-      <Footer />
-    </>
+    <div className="min-h-screen flex items-center justify-center bg-[#FAFAF7]">
+      <div className="text-center px-4">
+        <h1
+          className="text-4xl font-bold text-[#1A2332] mb-4"
+          style={{ fontFamily: "Sora, system-ui, sans-serif" }}
+        >
+          Coming Soon
+        </h1>
+        <p className="text-[#526170] text-lg">
+          We are working on something new.
+        </p>
+      </div>
+    </div>
   );
 }
