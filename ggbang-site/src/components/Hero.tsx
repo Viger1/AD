@@ -38,13 +38,13 @@ export function Hero() {
 
             <div className="animate-fade-in-up animate-delay-300 flex flex-col sm:flex-row items-center lg:items-start justify-center lg:justify-start gap-4">
               <a
-                href="#contact"
+                href="/#contact"
                 className="px-8 py-3.5 rounded-xl bg-[#612FFF] text-white font-semibold hover:bg-[#7043FF] transition-all shadow-lg shadow-[#612FFF]/25 text-lg hover:shadow-xl hover:-translate-y-0.5"
               >
                 {t.ctaPrimary[locale]}
               </a>
               <a
-                href="#how-it-works"
+                href="/#how-it-works"
                 className="px-8 py-3.5 rounded-xl glass-card text-[var(--color-primary)] font-semibold hover:bg-white/80 transition-all text-lg shadow-sm"
               >
                 {t.ctaSecondary[locale]}

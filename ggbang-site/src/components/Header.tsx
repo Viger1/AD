@@ -6,11 +6,11 @@ import { translations } from "@/i18n/translations";
 import { GGBangLogo } from "./GGBangLogo";
 
 const NAV_ITEMS = [
-  { key: "payment" as const, href: "#payment-methods" },
-  { key: "features" as const, href: "#features" },
-  { key: "howItWorks" as const, href: "#how-it-works" },
-  { key: "pricing" as const, href: "#pricing" },
-  { key: "faq" as const, href: "#faq" },
+  { key: "payment" as const, href: "/#payment-methods" },
+  { key: "features" as const, href: "/#features" },
+  { key: "howItWorks" as const, href: "/#how-it-works" },
+  { key: "pricing" as const, href: "/#pricing" },
+  { key: "faq" as const, href: "/#faq" },
   { key: "blog" as const, href: "/blog" },
 ];
 
@@ -47,7 +47,7 @@ export function Header() {
               {locale === "zh" ? "EN" : "中文"}
             </button>
             <a
-              href="#contact"
+              href="/#contact"
               className="px-5 py-2 rounded-lg bg-[#612FFF] text-white text-sm font-semibold hover:bg-[#7043FF] transition-colors shadow-md shadow-[#612FFF]/20"
             >
               {t.cta[locale]}
@@ -89,7 +89,7 @@ export function Header() {
                 {locale === "zh" ? "EN" : "中文"}
               </button>
               <a
-                href="#contact"
+                href="/#contact"
                 className="flex-1 text-center py-2 rounded-lg bg-[var(--color-accent)] text-white text-sm font-semibold"
                 onClick={() => setMenuOpen(false)}
               >

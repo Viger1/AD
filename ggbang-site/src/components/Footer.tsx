@@ -26,9 +26,9 @@ export function Footer() {
               {t.product[locale]}
             </h4>
             <ul className="space-y-2.5 text-sm text-[var(--color-text-secondary)]">
-              <li><a href="#payment-methods" className="hover:text-[var(--color-accent)] transition-colors">{translations.nav.payment[locale]}</a></li>
-              <li><a href="#features" className="hover:text-[var(--color-accent)] transition-colors">{translations.nav.features[locale]}</a></li>
-              <li><a href="#pricing" className="hover:text-[var(--color-accent)] transition-colors">{translations.nav.pricing[locale]}</a></li>
+              <li><a href="/#payment-methods" className="hover:text-[var(--color-accent)] transition-colors">{translations.nav.payment[locale]}</a></li>
+              <li><a href="/#features" className="hover:text-[var(--color-accent)] transition-colors">{translations.nav.features[locale]}</a></li>
+              <li><a href="/#pricing" className="hover:text-[var(--color-accent)] transition-colors">{translations.nav.pricing[locale]}</a></li>
               <li><a href="#" className="hover:text-[var(--color-accent)] transition-colors">{t.apiDocs[locale]}</a></li>
             </ul>
           </div>
@@ -40,8 +40,8 @@ export function Footer() {
             <ul className="space-y-2.5 text-sm text-[var(--color-text-secondary)]">
               <li><a href="#" className="hover:text-[var(--color-accent)] transition-colors">{t.integrationGuide[locale]}</a></li>
               <li><a href="#" className="hover:text-[var(--color-accent)] transition-colors">{t.devDocs[locale]}</a></li>
-              <li><a href="#faq" className="hover:text-[var(--color-accent)] transition-colors">{translations.nav.faq[locale]}</a></li>
-              <li><a href="#" className="hover:text-[var(--color-accent)] transition-colors">{t.blog[locale]}</a></li>
+              <li><a href="/#faq" className="hover:text-[var(--color-accent)] transition-colors">{translations.nav.faq[locale]}</a></li>
+              <li><a href="/blog" className="hover:text-[var(--color-accent)] transition-colors">{t.blog[locale]}</a></li>
             </ul>
           </div>
 

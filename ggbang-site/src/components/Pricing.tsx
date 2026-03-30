@@ -97,7 +97,7 @@ export function Pricing() {
                 </ul>
 
                 <a
-                  href="#contact"
+                  href="/#contact"
                   className={`block text-center py-3 rounded-xl font-semibold text-sm transition-all ${
                     isHighlight
                       ? "bg-[var(--color-accent)] text-white hover:bg-[var(--color-accent-hover)] shadow-md shadow-[var(--color-accent)]/20"
